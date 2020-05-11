@@ -1,0 +1,41 @@
+*{
+    margin:0 auto;
+    box-sizing: border-box;
+}
+body{
+    color:purple;
+    font-family: 'Courgette';
+    background-color: #e1e1e1;
+}
+.col{
+    margin: 0 auto;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width:300px;
+}
+.tshirtWrap{
+    border: 2px solid #ffffff;
+    padding: 40px;
+    background: #ececec;
+}
+button{
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+    padding: 15px 40px;
+    background: #000;
+    border: 0;
+    color: #fff;
+    text-transform: uppercase;
+    transition: 1s background-color;
+    cursor: pointer;
+}
+button:hover{
+    background-color: purple;
+}
